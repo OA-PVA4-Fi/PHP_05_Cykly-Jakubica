@@ -8,5 +8,29 @@
 
 //reseni
 
+$months = [
+
+    "Leden", // 0
+    "Únor", // 1
+    "Březen", // 2
+    "Duben", // 3
+    "Květen", // 4
+    "Červen", // 5
+    "Červenec", // 6
+    "Srpen", // 7
+    "Zari", // 8
+    "Řijen", // 9
+    "Listopad", // 10
+    "Prosinec"  // 11
+
+];
+foreach ($months as $month) {
+    echo $month . "\n";
+}
+for ($i =5 ; $i < 12; $i++)
+    echo $months[$i] . "\n";
+
+
+
 ?>
 
